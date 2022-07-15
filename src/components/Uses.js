@@ -12,7 +12,7 @@ function Uses() {
     <section className='uses-section'>
       <Container className='uses-container'>
         <Row>
-          <Col data-aos='flip-right'>
+          <Col>
             <img src={laptop} alt='' />
           </Col>
           <Col>
@@ -35,12 +35,12 @@ function Uses() {
             <img src={appstore} alt='' className='stores-img ' />
             <img src={googleplay} alt='' className='stores-img ' />
           </Col>
-          <Col className='phone' data-aos='flip-left'>
+          <Col className='phone'>
             <img src={phone} alt='' />
           </Col>
         </Row>
         <Row>
-          <Col data-aos='flip-right'>
+          <Col>
             <img src={person} alt='' />
           </Col>
           <Col>
