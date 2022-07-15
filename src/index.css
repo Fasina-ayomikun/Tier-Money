@@ -564,6 +564,18 @@ img {
     row-gap: 30px;
   }
 }
+@media (max-width: 500px) {
+  .newsletter-input input {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .newsletter-input button {
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 1rems;
+  }
+}
 @media (max-width: 359px) {
   .logo {
     height: 60px;
@@ -571,18 +583,8 @@ img {
   .testimonials-container h2 {
     font-size: 2rem;
   }
-  .newsletter-input input {
-    width: 100%;
-    padding: 0;
-    margin-bottom: 30px;
-  }
   .uses-qr {
     padding: 15px 10px;
-  }
-  .newsletter-input button {
-    width: 100%;
-    padding: 6px 10px;
-    font-size: 1rems;
   }
   .footer-contents .col:nth-child(4),
   .footer-contents .col:nth-child(2) {
